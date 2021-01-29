@@ -1,4 +1,4 @@
-# Desafios CoderHouse
+# Desafios CoderHouse - Programación Backend
 Recopilación de todos los desafíos resueltos en la camada de Programación Backend de CoderHouse
 
 > ### Clase 05: Nuestro Primer Servidor en NodeJS
