@@ -2,7 +2,7 @@
 
 Recopilación de todos los desafíos resueltos en la camada de Programación Backend en NodeJS/ExpressJS de CoderHouse
 
-> ### Clase 01: Principios de Programación en JS y ES6+
+## Clase 01: Principios de Programación en JS y ES6+
 
 1. Declarar una función constructora llamada Usuario que reciba: nombre (string), apellido (string), libros (array de objetos) y mascotas (array de strings).
    Implementar las propiedades instancia desde los valores recibidos como argumento y los siguientes métodos en su prototipo:
@@ -15,7 +15,7 @@ Recopilación de todos los desafíos resueltos en la camada de Programación Bac
 
 2. Realizar todo lo anterior utilizando el constructor class de ES6
 
-> ### Clase 05: Nuestro Primer Servidor en NodeJS
+## Clase 05: Nuestro Primer Servidor en NodeJS
 
 Desarrollar un servidor en node.js que con cada requerimiento devuelva como resultado un objeto con las siguientes características:
 
@@ -31,7 +31,7 @@ Desarrollar un servidor en node.js que con cada requerimiento devuelva como resu
 1. Serializar el objeto (con JSON.stringify()) antes de enviarlo al frontend
 2. El servidor debe estar creado en una cuenta no anónima para que su código sea persistente luego de los 5 días de creado.
 
-> ### Clase 06: Manejo de Archivos
+## Clase 06: Manejo de Archivos
 
 Implementar programa que contenga una clase llamada Archivo que reciba el nombre del archivo con el que va a trabajar e implemente los métodos leer, guardar, borrar.
 
@@ -51,14 +51,14 @@ Con el método leer se mostrará en consola el listado total (si el archivo exis
 El método borrar elimina el archivo completo.
 Implementar el manejo de archivos con el módulo fs de node.js, utilizando promesas con async await y manejo de errores.
 
-> ### Clase 07: Introduccion a ExpressJS
+## Clase 07: Introduccion a ExpressJS
 
 Realizar un proyecto de servidor basado en node.js que utilice el middleware express e implemente tres endpoints en el puerto 8080:
 -Ruta get '/items' que responda un objeto con todos los productos y su cantidad total en el siguiente formato: { items: [productos], cantidad: (cantidad productos) }
 -Ruta get '/item-random' que devuelva un producto elegido al azar desde un array de productos que se encuentran en el archivo 'productos.json'. El formato de respuesta será: { item: {producto} }
 -La ruta get '/visitas' devuelve un objeto que indica cuantas veces se visitó la ruta del punto 1 y cuantas la ruta del punto 2. Contestar con el formato: { visitas : { items: cantidad, item: cantidad } }
 
-> ### Clase 08: ExpressJS Avanzado
+## Clase 08: ExpressJS Avanzado
 
 Realizar un proyecto de servidor basado en node.js que permita listar e incorporar ítems dentro de un array de productos en memoria.
 
