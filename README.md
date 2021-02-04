@@ -58,11 +58,9 @@ Realizar un proyecto de servidor basado en node.js que utilice el middleware exp
 -Ruta get '/item-random' que devuelva un producto elegido al azar desde un array de productos que se encuentran en el archivo 'productos.json'. El formato de respuesta será: { item: {producto} }
 -La ruta get '/visitas' devuelve un objeto que indica cuantas veces se visitó la ruta del punto 1 y cuantas la ruta del punto 2. Contestar con el formato: { visitas : { items: cantidad, item: cantidad } }
 
-## Clase 08: ExpressJS Avanzado
+## Clase 08: ExpressJS Avanzado (Parte 1)
 
-Realizar un proyecto de servidor basado en node.js que permita listar e incorporar ítems dentro de un array de productos en memoria.
-
-Cada producto estará representado por un objeto con el siguiente formato:
+Realizar un proyecto de servidor basado en NodeJS que permita listar e incorporar ítems dentro de un array de productos en memoria. Cada producto estará representado por un objeto con el siguiente formato:
 
 ```
 {
@@ -78,3 +76,14 @@ Cada producto estará representado por un objeto con el siguiente formato:
    A. Listar en forma total (get) : '/api/productos' -> devuelve array de productos
    B. Listar en forma individual (get) (por id): '/api/productos/:id' -> devuelve producto listado
    C. Almacenar un producto (post) : '/api/productos/' -> devuelve producto incorporado
+
+## Clase 09: ExpressJS Avanzado (Parte 2)
+
+Sobre el proyecto entregable de la clase anterior, incorporar las siguientes rutas:
+A. Actualizar un producto (put) : '/api/productos/:id' -> devuelve producto actualizado
+B. Borrar un producto (delete) : '/api/productos/:id' -> devuelve producto eliminado
+
+Implementar las rutas put y delete junto a las funciones necesarias (utilizar la estructura ya creada).
+Incorporar el Router de express en la url base '/api' y configurar todas las subrutas en base a este.
+Crear un espacio público de servidor que contenga un documento index.html con un formulario de ingreso de productos con los datos apropiados.
+Probar la funcionalidad con Postman y el formulario de ingreso de datos.

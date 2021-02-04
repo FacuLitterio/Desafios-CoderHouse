@@ -11,11 +11,11 @@ app.set("PORT", process.env.PORT || 4000);
 app.use(express.json());
 
 //Routes
-app.get("/api/productos/", (req, res) => {
+app.get("/API/productos/", (req, res) => {
   res.status(201).json(Productos);
 });
 
-app.get("/api/productos/:id", (req, res) => {
+app.get("/API/productos/:id", (req, res) => {
   const { id } = req.params;
   const ProductoBuscado = Productos.filter((producto) => producto.id === id);
 
@@ -26,7 +26,7 @@ app.get("/api/productos/:id", (req, res) => {
   }
 });
 
-app.post("/api/productos", (req, res) => {
+app.post("/API/productos", (req, res) => {
   let id = Productos.length + 1;
 
   const NuevoProducto = {
