@@ -87,3 +87,16 @@ Implementar las rutas put y delete junto a las funciones necesarias (utilizar la
 Incorporar el Router de express en la url base '/api' y configurar todas las subrutas en base a este.
 Crear un espacio público de servidor que contenga un documento index.html con un formulario de ingreso de productos con los datos apropiados.
 Probar la funcionalidad con Postman y el formulario de ingreso de datos.
+
+## Clase 10: Motores de Plantillas (Handlebars)
+
+Sobre el proyecto entregable de la clase anterior, incorporar y configurar el motor de plantillas handlebars para que permita ver mediante la ruta get '/Products' los productos cargados.
+
+Realizar las plantillas correspondientes que permitan recorrer el array de productos y representarlo en forma de tabla dinámica, siendo sus cabeceras el nombre de producto, el precio y su foto.
+
+- Utilizar bootstrap para maquetar la vista creada por dicho motor de plantillas.
+- Maquetar con bootstrap el formulario de ingreso de productos. Al guardar el producto, se debe redirigir la vista al formulario vacío.
+
+## Clase 11: Motores de Plantillas (Pug y Ejs)
+
+Manteniendo la misma funcionalidad reemplazar el motor de plantillas handlebars por Pug.
